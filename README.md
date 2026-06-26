@@ -18,6 +18,8 @@ It mixes survival and strategy elements with different game modes.
 - Strategy-based fighting
 - Round-based battles
 
+![Gameplay2 Screenshot](Screenshot2.png)
+
 ---
 
 ### 💰 Betting System
@@ -42,6 +44,8 @@ It mixes survival and strategy elements with different game modes.
 The game includes a story mode with an ending you will discover yourself.
 
 *(No spoilers 😉)*
+
+![Gameplay3 Screenshot](Screenshot3.png)
 
 ---
 
