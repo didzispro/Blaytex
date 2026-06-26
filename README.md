@@ -1,5 +1,7 @@
 # Blaytex
 
+
+
 ## 🎮 About the Game
 Blaytex is a fighting game where you battle enemies in rounds until you win.  
 It mixes survival and strategy elements with different game modes.
