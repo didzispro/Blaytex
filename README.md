@@ -2,6 +2,7 @@
 
 🔗 Play the game:
 Itch.io → https://didzisprocoder.itch.io/fighting-game
+
 GameJolt → https://gamejolt.com/games/Fighting-Game-Style/1077682
 
 ## 🎮 About the Game
