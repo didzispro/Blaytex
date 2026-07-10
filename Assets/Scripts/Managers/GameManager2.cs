@@ -167,12 +167,6 @@ public class GameManager2 : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void MultiplayerScene()
-    {
-        audioSource.PlayOneShot(uiSound, 1.0f);
-        SceneManager.LoadScene("MultiplayerScene");
-    }
-
     public void QuitGame()
     {
         audioSource.PlayOneShot(uiSound, 1.0f);
