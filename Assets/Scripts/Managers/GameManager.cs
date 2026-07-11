@@ -440,9 +440,8 @@ public class GameManager : MonoBehaviour
     {
         audioSource.PlayOneShot(uiSound);
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSecondsRealtime(0.2f);
 
-        Debug.Log("Quit Game!");
         Application.Quit();
     }
 

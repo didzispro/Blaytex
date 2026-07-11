@@ -3447,7 +3447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.07058824, g: 0.07058824, b: 0.07058824, a: 0}
+  m_Color: {r: 0.07058824, g: 0.07058824, b: 0.07058824, a: 0.8627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13354,7 +13354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1888941984}
   m_Layer: 0
-  m_Name: Lose/Win Canvas
+  m_Name: LoseCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14234,6 +14234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseCanvas: {fileID: 170461477}
   ifPausedMenu: 0
+  canPressEsc: 0
   uiSound: {fileID: 8300000, guid: e04b360946d60264eafa9f7f44e860f2, type: 3}
   isPaused: 0
   audioSettings: {fileID: 1046933884}
@@ -14525,7 +14526,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &2023416534
 RectTransform:

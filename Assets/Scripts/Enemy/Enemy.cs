@@ -260,8 +260,6 @@ public class Enemy : MonoBehaviour
 
         textControl.KoTimers();
 
-        Debug.Log("Enemy died!");
-
         isDead = true;
 
         // Die Animation.

@@ -125,12 +125,10 @@ public class Enemy1 : MonoBehaviour
 
             if (distance < 2.5f && roll < attackVertical)
             {
-                Debug.Log("VERTICAL BRANCH");
                 StartCoroutine(AttackWindup());
             }
             else if (distance < 2.5f && roll < attackHorizontal)
             {
-                Debug.Log("Horizontal BRANCH");
                 StartCoroutine(AttackWindupHorizontal());
             }
         }
@@ -260,8 +258,6 @@ public class Enemy1 : MonoBehaviour
 
         textControl1.KoTimers();
 
-        Debug.Log("Enemy died!");
-
         isDead = true;
 
         // Die Animation.
@@ -326,7 +322,6 @@ public class Enemy1 : MonoBehaviour
         canAttack = false;
 
         animator.SetTrigger("Attack");
-        Debug.Log("horizontal ATTACK");
 
         if (punchSound != null)
         {
@@ -366,7 +361,6 @@ public class Enemy1 : MonoBehaviour
         canAttack = false;
 
         animator.SetTrigger("AttackHorizontal");
-        Debug.Log("VERTICAL ATTACK");
 
         if (punchSound != null)
         {   

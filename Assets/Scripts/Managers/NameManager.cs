@@ -19,9 +19,6 @@ public class NameManager : MonoBehaviour
             string.IsNullOrWhiteSpace(player2Input.text) ? "Player2" : player2Input.text
         );
 
-        Debug.Log(player1Input.text);
-        Debug.Log(player2Input.text);
-
         PlayerPrefs.Save();
 
         SceneManager.LoadScene(sceneName);

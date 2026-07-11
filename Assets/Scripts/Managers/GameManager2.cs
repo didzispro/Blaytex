@@ -169,11 +169,17 @@ public class GameManager2 : MonoBehaviour
 
     public void QuitGame()
     {
-        audioSource.PlayOneShot(uiSound, 1.0f);
-        Application.Quit();
-        Debug.Log("Quit Game!");
+        StartCoroutine(QuitRoutine());
     }
 
+    IEnumerator QuitRoutine()
+    {
+        audioSource.PlayOneShot(uiSound);
+
+        yield return new WaitForSecondsRealtime(0.2f);
+
+        Application.Quit();
+    }
 
     public void StartNextRound()
     {
